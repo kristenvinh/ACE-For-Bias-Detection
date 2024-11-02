@@ -14,14 +14,16 @@ This repository runs a MobileNetV2 image classifier to classify whether an image
 
  ## Running ACE on the UTKFaces Dataset
 
- First, this project runs a MobileNetV2 image classifier to classify whether an image from the UTKFaces Part1 Dataset[LINK] is of a male or female individual in the file [FILE NAME] with a test accuracy of  0.866.
+ First, this project runs a MobileNetV2 image classifier to classify whether an image from the [UTKFaces Part1 Dataset](https://susanqq.github.io/UTKFace/)is of a male or female individual in the file [FILE NAME] with a test accuracy of  0.866.
  
-Then, in two separate files, [FILE NAMES], it generates concepts for the female and male classes. It uses the ace.py and ace_helper.py files from the original ACE project, though modified to work with TensorFlow2. In addition, it creates a new custom_wrapper.py file with a wrapper modified from the TCAV project [LINK] since the GoogleNet wrapper did not seem to work for the MobileNet2 classifier. 
+Then, in two separate files, [FILE NAMES], it generates concepts for the female and male classes. It uses the ace.py and ace_helper.py files from the original ACE project, though modified to work with TensorFlow2. In addition, it creates a new custom_wrapper.py file with a wrapper modified from the [TCAV project](https://github.com/tensorflow/tcav) since the GoogleNet wrapper did not seem to work for the MobileNet2 classifier. 
 
 ### Female Concepts 
+(https://github.com/kristenvinh/ACE-For-Bias-Detection/blob/main/female_save_dir_11.2/results/global_average_pooling2d_4.png?raw=true)
 
 ### Male Concepts
 
+(https://github.com/kristenvinh/ACE-For-Bias-Detection/blob/main/male_save_dir_11.2/results/global_average_pooling2d_4.png?raw=true)
 ## Assessing ACE on Bias Detection
 
 ### Checking for Bias: Homogeneity in Produced Concepts
@@ -64,6 +66,18 @@ While LIME and SHAP can show the features and pixels of an image that are used i
 
 In addition, LIME identifies large swaths of the image, making it hard to tell what features are used, and SHAP is difficult to quickly and intuitively identify which features are used based on how it identifies pixels, making them poor candidates for bias detection. 
 
+LIME Examples:
+
+(https://github.com/kristenvinh/ACE-For-Bias-Detection/blob/main/LIME_output2.png?raw=true)
+
+(https://github.com/kristenvinh/ACE-For-Bias-Detection/blob/main/lime_output1.png?raw=true)
+
+SHAP Examples: 
+
+(https://github.com/kristenvinh/ACE-For-Bias-Detection/blob/main/SHAP_output.png?raw=true)
+
+(https://github.com/kristenvinh/ACE-For-Bias-Detection/blob/main/SHAP_output2.png?raw=true)
+
 ## Conclusion
 
 In conclusion, ACE has a high potential for being a very effective explainable AI method for identifying and mitigating biases. Although it did not necessarily work well for this image dataset, one can hope that with further tuning and more training data (as well as a more diverse dataset), it might have some success. 
@@ -72,7 +86,7 @@ In conclusion, ACE has a high potential for being a very effective explainable A
 
 Further experimentation should be done by increasing diversity in these image datasets and re-running to look for bias. In addition, one could try running the dataset on a more cropped, face-based dataset to see if better concepts for bias detection are created.
 
-In addition, to make concepts even more human-friendly, an even easier-to-understand concept creator, like CRAFT [LINK], could be explored.
+In addition, to make concepts even more human-friendly, an even easier-to-understand concept creator, like [CRAFT](https://github.com/deel-ai/Craft/blob/main/craft_tensorflow.ipynb), could be explored.
 
 
 
