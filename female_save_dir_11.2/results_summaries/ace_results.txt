@@ -1,0 +1,20 @@
+
+
+			 ---TCAV scores---
+
+global_average_pooling2d_4:female_concept4:0.6,0.004729458789911815
+global_average_pooling2d_4:female_concept23:0.6,0.004729458789911815
+global_average_pooling2d_4:female_concept2:0.55,0.002094821763962351
+global_average_pooling2d_4:female_concept1:0.55,0.002094821763962351
+global_average_pooling2d_4:female_concept9:0.5,0.0035394144753656083
+global_average_pooling2d_4:female_concept3:0.5,0.0008731939249668237
+global_average_pooling2d_4:female_concept18:0.45,0.001576396914624515
+global_average_pooling2d_4:female_concept7:0.45,0.0003378816380309765
+global_average_pooling2d_4:female_concept19:0.45,0.0003378816380309765
+global_average_pooling2d_4:female_concept17:0.4,0.00011927537719779561
+global_average_pooling2d_4:female_concept14:0.35,3.7534490241919464e-05
+global_average_pooling2d_4:female_concept22:0.25,2.282790103997654e-06
+global_average_pooling2d_4:female_concept6:0.25,2.282790103997654e-06
+global_average_pooling2d_4:female_concept15:0.2,3.9182110854728474e-07
+global_average_pooling2d_4:female_concept10:0.2,3.9182110854728474e-07
+global_average_pooling2d_4:female_concept20:0.15,4.571438028987197e-08
