@@ -14,9 +14,9 @@ This repository runs a MobileNetV2 image classifier to classify whether an image
 
  ## Running ACE on the UTKFaces Dataset
 
- First, this project runs a MobileNetV2 image classifier to classify whether an image from the [UTKFaces Part1 Dataset](https://susanqq.github.io/UTKFace/)is of a male or female individual in the file [FILE NAME] with a test accuracy of  0.866.
+ First, this project runs a MobileNetV2 image classifier to classify whether an image from the [UTKFaces Part1 Dataset](https://susanqq.github.io/UTKFace/) is of a male or female individual in the file Creating_Gender_Classifier.ipynb with a test accuracy of  0.866.
  
-Then, in two separate files, [FILE NAMES], it generates concepts for the female and male classes. It uses the ace.py and ace_helper.py files from the original ACE project, though modified to work with TensorFlow2. In addition, it creates a new custom_wrapper.py file with a wrapper modified from the [TCAV project](https://github.com/tensorflow/tcav) since the GoogleNet wrapper did not seem to work for the MobileNet2 classifier. 
+Then it generates concepts for the female and male classes. It uses the ace.py and ace_helper.py files from the original ACE project, though modified to work with TensorFlow2. In addition, it creates a new custom_wrapper.py file with a wrapper modified from the [TCAV project](https://github.com/tensorflow/tcav) since the GoogleNet wrapper did not seem to work for the MobileNet2 classifier. 
 
 ### Female Concepts 
 ![Female examples of concepts](https://github.com/kristenvinh/ACE-For-Bias-Detection/blob/main/female_save_dir_11.2/results/global_average_pooling2d_4.png?raw=true)
