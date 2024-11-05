@@ -1,0 +1,12 @@
+
+
+			 ---TCAV scores---
+
+dense_4:male_concept3:0.95,2.282790103997654e-06
+dense_4:male_concept21:0.95,2.282790103997654e-06
+dense_4:male_concept4:0.95,2.282790103997654e-06
+dense_4:male_concept15:0.95,2.282790103997654e-06
+dense_4:male_concept7:0.89,1.0748784607928236e-05
+dense_4:male_concept18:0.85,0.0008731939249668237
+dense_4:male_concept16:0.75,0.001576396914624515
+dense_4:male_concept1:0.7,0.0008731939249668237
