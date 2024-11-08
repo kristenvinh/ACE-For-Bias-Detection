@@ -1,0 +1,21 @@
+
+
+			 ---TCAV scores---
+
+dense:female_concept13:1.0,0.004729458789911815
+dense:female_concept14:1.0,0.004729458789911815
+dense:female_concept2:1.0,0.004729458789911815
+dense:female_concept3:1.0,0.004729458789911815
+dense:female_concept6:1.0,0.004729458789911815
+dense:female_concept7:1.0,0.004729458789911815
+dense:female_concept9:1.0,0.004729458789911815
+dense:female_concept10:1.0,0.004729458789911815
+dense:female_concept11:1.0,0.004729458789911815
+dense:female_concept24:1.0,0.004729458789911815
+dense:female_concept1:1.0,0.004729458789911815
+dense:female_concept15:1.0,0.004729458789911815
+dense:female_concept16:1.0,0.004729458789911815
+dense:female_concept17:1.0,0.004729458789911815
+dense:female_concept19:1.0,0.004729458789911815
+dense:female_concept20:1.0,0.004729458789911815
+dense:female_concept21:0.15,0.0003378816380309765
